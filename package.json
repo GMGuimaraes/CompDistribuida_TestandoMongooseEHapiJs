@@ -1,0 +1,25 @@
+{
+  "name": "trabalho-api",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/index"
+  },
+  "keywords": [
+    "Computação",
+    "Distribuida",
+    "Docker",
+    "MongoDb"
+  ],
+  "author": "Guilherme Moreno Guimarães",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.1",
+    "mongoose": "^6.0.12"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
